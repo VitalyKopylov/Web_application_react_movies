@@ -28,7 +28,7 @@ class Search extends React.Component {
         <div className="input-field">
           <input
             className="validate"
-            placeholder="search"
+            placeholder="поиск по английскому названию"
             type="search"
             value={this.state.search}
             onChange={(e) => this.setState({ search: e.target.value })}
